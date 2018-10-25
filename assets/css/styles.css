@@ -2,11 +2,5 @@ body {
     background-image: url(../images/gravel.png)
 }
 
-img {
-    width: 25%;
-    height: auto;
-}
-
-.left {
-    float: left;
+.port {
 }

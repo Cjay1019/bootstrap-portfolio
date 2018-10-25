@@ -1,0 +1,81 @@
+/* Fonts============================================================== */
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+section {
+    font-size: 18px;
+}
+
+nav {
+    font-size: 20px;
+    
+}
+
+nav, section, footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* /Fonts============================================================= */
+
+/* Colors============================================================= */
+h1 {
+    color: white;
+    background-color: #4aaaa5;    
+    font-weight: bold;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+section, form, small {
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+}
+
+header {
+    background-color: white;
+}
+
+section {
+    background-color: #ffffff
+}
+
+a:link {
+    color: #999999;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+a:visited {
+    color: #999999;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+input {
+    color: #777777;
+    border: 2px solid #eaeaea;
+}
+
+textarea {
+    color: #777777;
+    border: 2px solid #eaeaea;
+}
+
+button {
+    color: white;
+    background-color: #4aaaa5;
+    transition: .2s ease;
+}
+
+button:hover {
+    background-color: teal;
+    transition: .2s ease;
+}
+/* /Colors============================================================ */
