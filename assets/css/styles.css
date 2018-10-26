@@ -2,5 +2,26 @@ body {
     background-image: url(../images/gravel.png)
 }
 
-.port {
+header {
+    height: 90px;
+    border-bottom: 2px solid #cdcdcd;
+}
+
+.portrait {
+    width: 200px;
+    height: auto;
+    margin: 10px 25px 0 0;
+    border: 1px solid black;
+}
+
+.custom-nav {
+    height: 90px;
+}
+
+.header-links {
+    flex-grow: inherit;
+}
+
+.navbar-name {
+    padding: 21px;
 }

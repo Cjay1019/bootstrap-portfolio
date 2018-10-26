@@ -1,5 +1,5 @@
 /* Fonts============================================================== */
-h1, h2 {
+.navbar-name, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
 }
@@ -8,19 +8,19 @@ section {
     font-size: 18px;
 }
 
-nav {
-    font-size: 20px;
+.custom-nav {
+    font-size: 20px !important;
     
 }
 
-nav, section, footer {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.custom-nav, section, footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
 }
 /* /Fonts============================================================= */
 
 /* Colors============================================================= */
-h1 {
-    color: white;
+.navbar-name {
+    color: white !important;
     background-color: #4aaaa5;    
     font-weight: bold;
 }
