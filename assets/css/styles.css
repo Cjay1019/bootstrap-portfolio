@@ -5,12 +5,13 @@ body {
 header {
     height: 90px;
     border-bottom: 2px solid #cdcdcd;
+    margin-bottom: 40px;
 }
 
 .portrait {
     width: 200px;
     height: auto;
-    margin: 10px 25px 0 0;
+    margin: 5px 25px 0 0;
     border: 1px solid black;
 }
 
@@ -20,8 +21,31 @@ header {
 
 .header-links {
     flex-grow: inherit;
+    /* padding: 7px 0 7px 33px; */
 }
 
 .navbar-name {
     padding: 21px;
+}
+
+.main-content {
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+.about-me {
+    border-bottom: 3px solid #dddddd;
+    padding: 6px 0 19px 0;
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    /* padding: 0px 15px 0 15px; */
+    /* margin: 0 15px 0 15px; */
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+
+.nav-link {
+    padding: 0 !important;
 }
