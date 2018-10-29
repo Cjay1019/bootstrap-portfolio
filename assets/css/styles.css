@@ -1,5 +1,6 @@
 body {
-    background-image: url(../images/gravel.png)
+    background-image: url(../images/gravel.png);
+    height: 100%;
 }
 
 header {
@@ -15,13 +16,23 @@ header {
     border: 1px solid black;
 }
 
+.port-images {
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+}
+
 .custom-nav {
     height: 90px;
 }
 
+p {
+    line-height: 2em;
+}
+
 .header-links {
     flex-grow: inherit;
-    /* padding: 7px 0 7px 33px; */
+    line-height: 1em;
 }
 
 .navbar-name {
@@ -31,6 +42,7 @@ header {
 .main-content {
     border: 1px solid #dddddd;
     padding: 30px;
+    margin-bottom: 40px;
 }
 
 .about-me {
@@ -40,12 +52,28 @@ header {
 }
 
 .portfolio {
-    /* padding: 0px 15px 0 15px; */
-    /* margin: 0 15px 0 15px; */
+    padding: 8px 15px 8 15px;
+    margin: 0 15px 0 15px;
     border-right: 1px solid #efefef;
     border-left: 1px solid #efefef;
 }
 
-.nav-link {
-    padding: 0 !important;
+.foot {
+    padding: 22px 0 22px 0;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+.form-btn {
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.text-boxes {
+    border-radius: 0;
+    border: 2px solid #eaeaea;
+}
+
+.form-area {
+    height: 200px !important;
 }
