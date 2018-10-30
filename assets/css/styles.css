@@ -18,8 +18,9 @@ header {
 
 .port-images {
     border: 1px solid black;
-    width: 300px;
+    width: 100%;
     height: auto;
+    margin-bottom: 25px;
 }
 
 .custom-nav {
@@ -33,6 +34,7 @@ p {
 .header-links {
     flex-grow: inherit;
     line-height: 1em;
+    margin-left: auto;
 }
 
 .navbar-name {
@@ -43,6 +45,7 @@ p {
     border: 1px solid #dddddd;
     padding: 30px;
     margin-bottom: 40px;
+    animation: fadein 1s;
 }
 
 .about-me {
@@ -76,4 +79,9 @@ p {
 
 .form-area {
     height: 200px !important;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
