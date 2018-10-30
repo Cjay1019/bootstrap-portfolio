@@ -1,12 +1,11 @@
 body {
     background-image: url(../images/gravel.png);
-    height: 100%;
 }
 
 header {
     height: 90px;
     border-bottom: 2px solid #cdcdcd;
-    margin-bottom: 40px;
+    margin: 0 0 40px 0 !important;
 }
 
 .portrait {
@@ -33,7 +32,7 @@ p {
 
 .header-links {
     flex-grow: inherit;
-    line-height: 1em;
+    line-height: .8em;
     margin-left: auto;
 }
 
@@ -55,7 +54,7 @@ p {
 }
 
 .portfolio {
-    padding: 8px 15px 8 15px;
+    padding: 8px 15px 8px 15px !important;
     margin: 0 15px 0 15px;
     border-right: 1px solid #efefef;
     border-left: 1px solid #efefef;
@@ -79,9 +78,61 @@ p {
 
 .form-area {
     height: 200px !important;
+    
+}
+
+#relative {
+    position: relative;
+    cursor: pointer;
+}
+
+#absolute {
+    position: absolute;
+    bottom: 0;
+    padding: 12px;
+    right: 16px;
+    left: 16px;
+    margin-bottom: 2.5rem;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#relative:hover #absolute {
+    padding: 24px;
+    transition: .2s ease;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-name {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .header-links {
+        margin: auto;
+        text-align: center;
+        flex-direction: row;
+        margin-top: 1.5rem;
+    }
+    header {
+        height: 173px;
+    }
+    /* .mobile-container { */
+        margin: 0;
+        padding: 0;
+        width: 100%;        
+    }
+    .mobile-navbar {
+        margin:0;
+    }
 }
