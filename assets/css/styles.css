@@ -45,6 +45,7 @@ p {
     padding: 30px;
     margin-bottom: 40px;
     animation: fadein 1s;
+    min-height: calc(100vh - 70px);
 }
 
 .about-me {
@@ -134,4 +135,9 @@ p {
     }
     .mobile-navbar {
         margin:0;
+    }
+    .portrait {
+        width: 100%;
+        margin-right: 0;
+    }
 }
