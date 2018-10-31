@@ -128,15 +128,11 @@ p {
     header {
         height: 173px;
     }
-    /* .mobile-container { */
-        margin: 0;
-        padding: 0;
-        width: 100%;        
-    }
     .mobile-navbar {
         margin:0;
     }
     .portrait {
         width: 100%;
         margin-right: 0;
+    }
 }
