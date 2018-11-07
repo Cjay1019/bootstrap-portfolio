@@ -30,6 +30,10 @@ p {
     line-height: 2em;
 }
 
+a {
+    line-height: 2em;
+    }
+
 .header-links {
     flex-grow: inherit;
     line-height: .8em;
@@ -106,7 +110,7 @@ p {
 #relative:hover #absolute {
     padding: 24px;
     transition: .2s ease;
-}
+    }
 
 @keyframes fadein {
     from { opacity: 0; }
